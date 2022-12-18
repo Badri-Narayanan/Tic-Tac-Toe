@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tic Tac Toe Game</title>
+        <meta name="description" content="This page is for playing tic tac toe game" />
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <center><h1 id="pageHeading">Welcome to Tic Tac Toe Game</h1></center>
+        <br>
+        <table>
+            <tr>
+                <td width="45%">
+                    <div>
+                        <p class="playerName">Player 1</p><div class="small-box">O</div>
+                    </div>
+                    <div>
+                        <p class="playerName">Player 2</p><div class="small-box">X</div>
+                    </div>
+                </td>
+                <td width="55%">
+                    <center>
+                    <div class="banner" id="gameStatus"></div>
+                    <br><br>
+
+                    <div>
+                        <table>
+                            <tr>
+                                <td class="box"></td>
+                                <td class="box"></td>
+                                <td class="box"></td>
+                            </tr>
+                            <tr>
+                                <td class="box"></td>
+                                <td class="box"></td>
+                                <td class="box"></td>
+                            </tr>
+                            <tr>
+                                <td class="box"></td>
+                                <td class="box"></td>
+                                <td class="box"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <button class="button-style" id="startGame">Start Game</button>
+                    <button class="button-style" id="restartGame">Restart Game</button>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        
+        
+        <script src="logic.js"></script>
+    </body>
+</html>
